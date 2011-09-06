@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="Shortcut Icon" href="/static/favicon.ico">
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet/less" type="text/css" href="/static/master.less">
+  <script src="/static/less.js" type="text/javascript"></script>
+  <!--<link rel="stylesheet" href="/static/master.css" type="text/css" media="all" charset="utf-8">-->
+  <script type="text/javascript" src="/static/jquery.js"></script> 
+  <title>Modeling Discourse and Social Dynamics in Authoritarian Regimes</title>
+</head>
+<body>
+  <h1 id="title"><a href="/">Modeling Discourse and Social Dynamics in Authoritarian Regimes</a></h1>
+  <div id="container">
+    <div id="right">
+      <div class="section">
+        <h3>Researchers and Collaborators</h3>
+        <ul>
+          <li><a href="/people/james_pennebaker.html">James Pennebaker</a></li>
+          <li><a href="/people/jeffrey_hancock.html">Jeffrey Hancock</a></li>
+          <li><a href="/people/joseph_frazee.html">David Beaver</a></li>
+          <li><a href="/people/cindy_chung.html">Cindy Chung</a></li>
+          <li><a href="/people/joseph_frazee.html">Joseph Frazee</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <h3>Upcoming Talks</h3>
+        <ul>
+          <li>
+            <h4>Minerva Conference</h4>
+            <p class="speaker">Art Graesser and David Beaver</p>
+            <p class="date"></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="footer">
+        ©2011 UT Austin &middot; <a href="mailto:dib@mail.utexas.edu">David Beaver</a>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function google() {
+      window.location = 'http://www.google.com/#&q=site:minerva.henrian.com+' + $('#search_text').val();
+    }
+    $(function() {
+      $('#search_button').click(google);
+      $('#search_text').keyup(function(ev) {
+        if (ev.keyCode == '13') {
+          ev.preventDefault(); 
+          google();
+        }
+      });
+    });
+  </script>  
+</body>
+</html>
