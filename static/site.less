@@ -1,0 +1,79 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  background: #FCFCFC url('sands.jpg') top center repeat-x scroll;
+}
+.bf { font-weight: bold; }
+.em { font-style: italic; }
+.nowrap { white-space: nowrap; }
+h1, h2, h3, h4, h5, h6 { font-family: Helvetica; }
+
+a, a:link, a:visited {
+  color: #25323f;
+}
+a:hover, a:visited {
+  color: #1b252e;
+}
+
+h1#title {
+  text-decoration: none;
+  width: 800px;
+  padding: 10px;
+  margin: 100px auto 20px;
+  a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0 0 6px #222;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#container {
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  width: 820px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+#right {
+  float: right;
+  width: 220px;
+  padding: 10px;
+}
+
+#content {
+  width: 550px;
+  padding: 10px 20px;
+}
+
+#footer {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  font-size: 80%;
+}
+
+.section {
+  .date {
+    color: #555;
+    font-style: italic;
+  }
+  ul, ol {
+    padding-left: 25px;
+    &.flat {
+      padding-left: 10px;
+      list-style: none;
+    }
+  }
+}
+
+.screenshot {
+  width: 550px;
+}
+
+li {
+  padding: 1px 0;
+}

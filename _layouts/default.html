@@ -8,10 +8,8 @@
   <meta name="generator" content="Hand-crafted HTML + Jekyll">
   <link rel="Shortcut Icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet/less" type="text/css" href="/static/master.less">
-  <script type="text/javascript" src="/static/less.js"></script>
-  <!--<link rel="stylesheet" href="/static/master.css" type="text/css" media="all" charset="utf-8">-->
-  <script type="text/javascript" src="/static/jquery.js"></script> 
+  <link rel="stylesheet" href="/static/site.css" type="text/css" media="all">
+  <script type="text/javascript" src="/static/jquery.min.js"></script>
   <title>Modeling Discourse and Social Dynamics in Authoritarian Regimes</title>
 </head>
 <body>
@@ -37,13 +35,17 @@
       <div class="section naked">
         <h3><a href="/development.html">Development</a></h3>
       </div>
+      <div class="section naked">
+        <h3><a href="/tools.html">Tools</a></h3>
+      </div>
       <div class="section" style="margin-top: 30px">
         <h3>Upcoming Talks</h3>
         <ul class="flat">
           <li>
             <h4 style="margin-top: 0"><a href="http://minerva.dtic.mil/">2012 Minerva Meeting</a></h4>
             <p class="speaker">David Beaver</p>
-            <p class="date">September 14th, 2012, in Arlington, Virginia</p>
+            <p class="date">September 14th, 2012<br/>
+              Arlington, Virginia</p>
           </li>
         </ul>
       </div>
@@ -60,7 +62,7 @@
       {{ content }}
     </div>
     <div id="footer">
-        ©2011 UT Austin &middot; <a href="mailto:dib@mail.utexas.edu">David Beaver</a>
+        ©2011 UT Austin &middot; <a href="mailto:dib@utexas.edu">David Beaver</a>
     </div>
   </div>
   <script type="text/javascript">
@@ -71,12 +73,12 @@
       $('#search_button').click(google);
       $('#search_text').keyup(function(ev) {
         if (ev.keyCode == '13') {
-          ev.preventDefault(); 
+          ev.preventDefault();
           google();
         }
       });
     });
-  </script>  
+  </script>
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-20644777-3']);
