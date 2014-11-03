@@ -13,7 +13,7 @@ h1#title a:hover{text-decoration:underline}
 #content{width:550px;padding:10px 20px}
 #footer{clear:both;padding:20px;text-align:center;font-size:80%}
 .section .date{color:#555;font-style:italic}
-.section ol,.section ul{padding-left:25px}
-.section ol.flat,.section ul.flat{padding-left:10px;list-style:none}
+.section ul,.section ol{padding-left:25px}
+.section ul.flat,.section ol.flat{padding-left:10px;list-style:none}
 .screenshot{width:550px}
 li{padding:1px 0}
