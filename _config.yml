@@ -1,0 +1,14 @@
+# replicate `github-pages` environment
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
